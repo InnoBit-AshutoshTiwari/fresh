@@ -8,7 +8,7 @@ const port=8000;
 
 const Student=require("./db/db_schema");
 const auth=require("./auth")
-const test=auth("Ashutos@gmail.com").then((value)=>{return value})
+//const test=auth("Ashutos@gmail.com").then((value)=>{return value})
 
 
 console.log('test '+test);
